@@ -1,0 +1,49 @@
+%%
+%% This is an example of a titlepage definition, which can be \included in
+%% at the beginning of your document.
+%%
+
+\begin{edsp}
+%% Nom de l'auteur
+\auteur{}
+
+%% Domaine : seule la premiere ligne non-commentee est prise en compte
+%%           un avertissement est envoye si plusieurs domaines sont definis
+%\domaine{Informatique}
+%\domaine{Math\'ematiques -- Math\'ematiques appliqu\'ees}
+%\domaine{Sciences physiques}
+%\domaine{Chimie}
+%\domaine{Sciences de la vie et de la sant\'e}
+%\domaine{M\'ecanique -- G\'enie m\'ecanique -- G\'enie civil}
+%\domaine{\'Electronique -- \'Electrotechnique -- Automatique}
+%\domaine{Sciences \'economiques et de gestion}
+%\domaine{Sciences sociales -- Philosophie -- Art}
+%\domaine{Sciences de l'\'education -- Langues}
+
+%% Sujet de la these
+\sujet{Titre de ma th\`ese}
+
+%% Date de soutenance (le package laissera un espace de 3cm si la date n'est pas definie)
+%\date{}
+
+%% ville de soutenance. Par defaut, c'est Cachan.
+%\lieu{}
+
+%% Numero d'ordre (donne par l'EDSP. Format YYYY/NNN)
+%\numero{}
+
+%% Jury (arguments obligatoires : Prenom Nom, titre, role (rapporteur, pr\'esident, ...)
+%% exemple: \jury{John Doe}{Professeur}{Directeur de th\`ese}
+%% Le jury est affiche dans l'ordre dans lequel il est defini
+\jury{John Doe}{Professeur des universit\'es}{Directeur de th\`ese}
+\jury{2}{}{}
+\jury{3}{}{}
+\jury{4}{}{}
+\jury{5}{}{}
+\jury{6}{}{}
+
+%% Labo (adresse, logo)
+% \labo{Nom de mon labo -- ENS~Cachan \\
+%  61 avenue du pr\'esident Wilson --  F-94230 Cachan}
+% \logolabo[height=10mm]{}
+\end{edsp}
